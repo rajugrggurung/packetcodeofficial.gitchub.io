@@ -1,0 +1,200 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+/*---------Header CSS--------*/
+#header{
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(image1.jpg);
+background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.user-box{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+}
+.user-box img{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	border: 2px solid #6caed5;
+
+}
+.user-box h1{
+	color: #fff;
+	font-weight: bold;
+	margin: 10px;
+}
+.user-box p{
+	color: #fff;
+
+}
+
+
+/*----------About--------*/
+
+.col-md-6 p {
+
+	justify-content: center;
+	background: #f9f9f9;
+}
+
+.col-md-6 h3{
+background: #f9f9f9;
+
+}
+.about{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.profile-img{
+	height: 400px;
+}
+.nav-bar{
+	top: 0;
+	position: static;
+	z-index: 2;
+}
+.navbar{
+	background-color: #000;
+}
+.navbar-brand h2{
+	height:50px; 
+}
+.nav-bar .fa-bars{
+font-size: 20px;
+color: #fff;
+}
+.navbar-toggler{
+	outline: none ! important;
+}
+.navbar-nav{
+	float: right;
+	text-align: right;
+
+}
+.nav-link{
+	color: ! important;
+}
+.skills-bar p{
+margin-bottom: 6px;
+font-weight: 600;
+}
+.progress{
+	border-radius: 16px !important;
+	margin-bottom: 10px;
+}
+.progress-bar{
+	border-radius: 16px;
+
+}
+
+/*-------reume*/
+
+
+.resume{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	background:#f9f9f9;
+
+}
+.resume h3{
+
+}
+.timeline{
+	list-style-type: none;
+	position: relative;
+}
+
+.timeline:before{
+	content: '';
+	background: #555;
+	display: inline-block;
+	position: absolute;
+	left: 29px;
+	width: 2px;
+	height: 100%;
+	z-index: 1;
+}
+.timeline li{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 
+	29px;
+	background: #fff;
+}
+.timeline li h4{
+	background-color: #000;
+	color: #fff;
+	padding: 5px 0 5px 20px;
+	column-rule-color: 
+	#fff;
+}
+
+
+/*------Contact-----*/
+
+
+.contact{
+	padding-top: 50px;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images1.jfif);
+background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+}
+.contact .row{
+padding-bottom: 30px 0;
+font-size: 22px;
+}
+.contact .col-md-4 .fa{
+	padding: 10px;
+	font-size: 40px;
+}
+
+.contact .btn{
+
+
+	padding: 
+	10px 25px 10px 25px;
+	margin: 5px;
+	border-radius: 30px;
+	border: 2px solid #fff;
+	background: transparent;
+}
+.contact .btn:focus{
+	box-shadow: none!important;
+
+}
+.contact .btn:hover{
+	border: 2px solid #000!important;
+	background: #000 !important;
+	transition: 0.5s;
+} 
+
+.contact .btn .fa{
+	margin-right: 10px;
+}
+
+.footer{
+
+
+background: #000;
+height: 50px;
+margin-top: 50px;
+color: #fff;
+padding-top: 10px;
+
+
+
+
+}
+
+
+.fa-heart{
+	color: red;
+}
